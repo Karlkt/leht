@@ -1,1 +1,31 @@
-<h1>Hello World</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Nimekiri</title>
+</head>
+<body>
+<br>
+<div id="menu">
+    <a href="?cmd=list" id="list-page-link">Nimekiri</a>&nbsp;&nbsp;|&nbsp;
+    <a href="?cmd=add" id="add-page-link">Lisa</a>
+</div>
+<br>
+<table border="1" width="800px">
+    <thead>
+    <tr>
+        <th class="table-bold table_bottom_border" scope="col">Hello</th>
+        <th class="table-bold table_bottom_border" scope="col">Yellow</th>
+        <th class="table-bold table_bottom_border" scope="col">Mellow</th>
+    </tr>
+    </thead>
+    <tbody tpl-foreach="$people as $person">
+
+    </tbody>
+</table>
+<br>
+<div id="footer">
+    ma ei tea mida siia kirjutada
+</div>
+</body>
+</html>
